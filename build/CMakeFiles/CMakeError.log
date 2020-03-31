@@ -1,0 +1,34 @@
+Determining if the function strtol_l exists failed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_c8ed6/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_c8ed6.dir/build.make CMakeFiles/cmTC_c8ed6.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8ed6.dir/CheckFunctionExists.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strtol_l -fPIE   -o CMakeFiles/cmTC_c8ed6.dir/CheckFunctionExists.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_c8ed6
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strtol_l  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_c8ed6.dir/CheckFunctionExists.c.o"   -o cmTC_c8ed6  -latomic -lm 
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckFunctionExists.c:17: error: undefined reference to 'strtol_l'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make.exe[1]: *** [cmTC_c8ed6] Error 1
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+make.exe: *** [cmTC_c8ed6/fast] Error 2
+
+
+
+Determining if the function strtol_l exists failed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_8515b/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_8515b.dir/build.make CMakeFiles/cmTC_8515b.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8515b.dir/CheckFunctionExists.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strtol_l -fPIE   -o CMakeFiles/cmTC_8515b.dir/CheckFunctionExists.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_8515b
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strtol_l  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_8515b.dir/CheckFunctionExists.c.o"   -o cmTC_8515b  -latomic -lm 
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckFunctionExists.c:17: error: undefined reference to 'strtol_l'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make.exe[1]: *** [cmTC_8515b] Error 1
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+make.exe: *** [cmTC_8515b/fast] Error 2
+
+
+

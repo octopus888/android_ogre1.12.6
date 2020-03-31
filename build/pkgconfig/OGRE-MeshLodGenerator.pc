@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/OGRE
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-MeshLodGenerator
+Description: Mesh Lod Generator for OGRE
+Version: 1.12.6
+Requires: OGRE = 1.12.6
+Libs: -L${libdir} -lOgreMeshLodGeneratorStatic
+Cflags: -I${includedir}/OGRE/MeshLodGenerator -pthread

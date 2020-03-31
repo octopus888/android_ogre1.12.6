@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c
+cpu-features.h
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.h
+dlfcn.h
+-
+errno.h
+-
+fcntl.h
+-
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/system_properties.h
+-
+unistd.h
+-
+
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.h
+sys/cdefs.h
+-
+stdint.h
+-
+

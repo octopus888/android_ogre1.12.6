@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+5af2a52cbf3abbd40ad48857c0fab596 Components/Java/CMakeFiles/OgreJNI.dir/OgreBitesJAVA.stamp
+f6dfddc6c8be29e2395abcf74067b530 Components/Java/CMakeFiles/OgreJNI.dir/OgreJAVA.stamp
+4a94da4fc9daf4f85163dba5ac5730de Components/Java/CMakeFiles/OgreJNI.dir/OgreOverlayJAVA.stamp
+31926d1e25c9c0e9f46b9f9ff7bb4af2 Components/Java/CMakeFiles/OgreJNI.dir/OgreRTShaderJAVA.stamp
+9adc0df50c478c9281bc9c2918af8173 Components/Java/CMakeFiles/OgreJNI_swig_compilation

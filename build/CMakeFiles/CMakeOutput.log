@@ -1,0 +1,894 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.18362 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_b6944/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_b6944.dir/build.make CMakeFiles/cmTC_b6944.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6944.dir/testCCompiler.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_b6944.dir/testCCompiler.c.o   -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b6944
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_b6944.dir/testCCompiler.c.o"   -o cmTC_b6944  -latomic -lm 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_a433d/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_a433d.dir/build.make CMakeFiles/cmTC_a433d.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-a00c98.s" -x c C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-a00c98.s"
+Linking C executable cmTC_a433d
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o"   -o cmTC_a433d 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a433d "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_a433d/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_a433d.dir/build.make CMakeFiles/cmTC_a433d.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-a00c98.s" -x c C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-a00c98.s"]
+  ignore line: [Linking C executable cmTC_a433d]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security    -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o"   -o cmTC_a433d ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a433d "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a433d] ==> ignore
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_a433d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o] ==> ignore
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_b2575/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_b2575.dir/build.make CMakeFiles/cmTC_b2575.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2575.dir/testCXXCompiler.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -o CMakeFiles/cmTC_b2575.dir/testCXXCompiler.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b2575
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_b2575.dir/testCXXCompiler.cxx.o"   -o cmTC_b2575  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_ed0b2/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_ed0b2.dir/build.make CMakeFiles/cmTC_ed0b2.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-c7fd6e.s" -x c++ C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-c7fd6e.s"
+Linking CXX executable cmTC_ed0b2
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_ed0b2 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ed0b2 "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_ed0b2/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_ed0b2.dir/build.make CMakeFiles/cmTC_ed0b2.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-c7fd6e.s" -x c++ C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-c7fd6e.s"]
+  ignore line: [Linking CXX executable cmTC_ed0b2]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security -std=c++11    -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_ed0b2 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ed0b2 "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ed0b2] ==> ignore
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_ed0b2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o] ==> ignore
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit libs: [stdc++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Determining size of void* passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_a9d6d/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_a9d6d.dir/build.make CMakeFiles/cmTC_a9d6d.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9d6d.dir/OGRE_PTR_SIZE.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_a9d6d.dir/OGRE_PTR_SIZE.c.o   -c E:/work/ogre_1.12.5/build/CMakeFiles/CheckTypeSize/OGRE_PTR_SIZE.c
+Linking C executable cmTC_a9d6d
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_a9d6d.dir/OGRE_PTR_SIZE.c.o"   -o cmTC_a9d6d  -latomic -lm 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_81456/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_81456.dir/build.make CMakeFiles/cmTC_81456.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81456.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_VISIBILITY -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_81456.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81456
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_81456.dir/src.cxx.o"   -o cmTC_81456  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_acadd/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_acadd.dir/build.make CMakeFiles/cmTC_acadd.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_acadd.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_acadd.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_acadd
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_acadd.dir/src.cxx.o"   -o cmTC_acadd  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_4df1f/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_4df1f.dir/build.make CMakeFiles/cmTC_4df1f.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4df1f.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_DEPRECATED_ATTR -fPIE   -o CMakeFiles/cmTC_4df1f.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_4df1f
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_DEPRECATED_ATTR  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_4df1f.dir/src.cxx.o"   -o cmTC_4df1f  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.18362 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_164d0/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_164d0.dir/build.make CMakeFiles/cmTC_164d0.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_164d0.dir/testCCompiler.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_164d0.dir/testCCompiler.c.o   -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_164d0
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_164d0.dir/testCCompiler.c.o"   -o cmTC_164d0  -latomic -lm 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_5a742/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_5a742.dir/build.make CMakeFiles/cmTC_5a742.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-53d2df.s" -x c C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-53d2df.s"
+Linking C executable cmTC_5a742
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o"   -o cmTC_5a742 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_5a742 "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_5a742/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_5a742.dir/build.make CMakeFiles/cmTC_5a742.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o   -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-53d2df.s" -x c C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCCompilerABI-53d2df.s"]
+  ignore line: [Linking C executable cmTC_5a742]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security    -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o"   -o cmTC_5a742 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_5a742 "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5a742] ==> ignore
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_5a742.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o] ==> ignore
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_3c83b/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_3c83b.dir/build.make CMakeFiles/cmTC_3c83b.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c83b.dir/testCXXCompiler.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -o CMakeFiles/cmTC_3c83b.dir/testCXXCompiler.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3c83b
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_3c83b.dir/testCXXCompiler.cxx.o"   -o cmTC_3c83b  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_8af9a/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_8af9a.dir/build.make CMakeFiles/cmTC_8af9a.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-8fc62e.s" -x c++ C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include
+ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-8fc62e.s"
+Linking CXX executable cmTC_8af9a
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_8af9a 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8af9a "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+    add: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/include;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_8af9a/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_8af9a.dir/build.make CMakeFiles/cmTC_8af9a.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [ "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple thumbv7-none-linux-android -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -no-integrated-as -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu cortex-a8 -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature +d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature -neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080" -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D __ANDROID_API__=18 -D ANDROID -isysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -internal-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem "C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\include" -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include -internal-externc-isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "E:\\work\\ogre_1.12.5\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-8fc62e.s" -x c++ C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include]
+  ignore line: [ C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\as" -mfpu=neon -mfloat-abi=softfp -march=armv7-a -mfpu=vfpv3-d16 --noexecstack -o CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o "C:\\Users\\lrt\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-8fc62e.s"]
+  ignore line: [Linking CXX executable cmTC_8af9a]
+  ignore line: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa --noexecstack -Wformat -Werror=format-security -std=c++11    -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v "CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_8af9a ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8af9a "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a "-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8af9a] ==> ignore
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-LC:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_8af9a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib\\crtend_android.o] ==> ignore
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [C:\\Users\\lrt\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib] ==> [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit libs: [stdc++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Determining size of void* passed with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_88d2b/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_88d2b.dir/build.make CMakeFiles/cmTC_88d2b.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88d2b.dir/OGRE_PTR_SIZE.c.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_88d2b.dir/OGRE_PTR_SIZE.c.o   -c E:/work/ogre_1.12.5/build/CMakeFiles/CheckTypeSize/OGRE_PTR_SIZE.c
+Linking C executable cmTC_88d2b
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_88d2b.dir/OGRE_PTR_SIZE.c.o"   -o cmTC_88d2b  -latomic -lm 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_3f0be/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_3f0be.dir/build.make CMakeFiles/cmTC_3f0be.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f0be.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_VISIBILITY -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_3f0be.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f0be
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_3f0be.dir/src.cxx.o"   -o cmTC_3f0be  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_fc88c/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_fc88c.dir/build.make CMakeFiles/cmTC_fc88c.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc88c.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_fc88c.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fc88c
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_fc88c.dir/src.cxx.o"   -o cmTC_fc88c  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\lrt\AppData\Local\Android\Sdk\ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_80ead/fast && C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles/cmTC_80ead.dir/build.make CMakeFiles/cmTC_80ead.dir/build
+make.exe[1]: Entering directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80ead.dir/src.cxx.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot   -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/android/support/include -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_DEPRECATED_ATTR -fPIE   -o CMakeFiles/cmTC_80ead.dir/src.cxx.o -c E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx
+E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_80ead
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Wall -Winit-self -Wcast-qual -Wwrite-strings -Wextra -Wundef -Wmissing-declarations -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -Wno-inconsistent-missing-override -Wno-missing-braces -isystem C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -DCOMPILER_HAS_DEPRECATED_ATTR  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LC:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   "CMakeFiles/cmTC_80ead.dir/src.cxx.o"   -o cmTC_80ead  -latomic -lm "C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.a" 
+make.exe[1]: Leaving directory `E:/work/ogre_1.12.5/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

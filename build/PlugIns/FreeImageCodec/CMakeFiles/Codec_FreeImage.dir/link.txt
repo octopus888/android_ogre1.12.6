@@ -1,0 +1,2 @@
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ar.exe qc ../../lib/libCodec_FreeImageStatic.a  CMakeFiles/Codec_FreeImage.dir/src/OgreFreeImageCodec.cpp.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ranlib.exe ../../lib/libCodec_FreeImageStatic.a

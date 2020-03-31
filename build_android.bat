@@ -1,0 +1,4 @@
+cmake -E make_directory "build/" && cd build/ && cmake -DCMAKE_TOOLCHAIN_FILE="%ANDROID_NDK%\build\cmake\android.toolchain.cmake" -DCMAKE_MAKE_PROGRAM="%ANDROID_NDK%/prebuilt/windows-x86_64/bin/make.exe" -DANDROID_STL="c++_static" -DANDROID_ABI="armeabi-v7a" -G "Unix Makefiles" -DANDROID=TRUE -DANDROID_PLATFORM=android-18 -DANDROID_NATIVE_API_LEVEL=18 -DANDROID_TOOLCHAIN=clang -DCMAKE_CONFIGURATION_TYPES=Release -DOGRE_BUILD_COMPONENT_OVERLAY_IMGUI=OFF -DOGRE_BUILD_SAMPLER_DEMO=TRUE -DOGRE_BUILD_ANDROID_JNI_SAMPLE=TRUE -DOGRE_DEPENDENCIES_DIR="../AndroidDependencies" ..
+cmake --build ./
+cd ..
+pause

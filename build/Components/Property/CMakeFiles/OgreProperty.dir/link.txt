@@ -1,0 +1,2 @@
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ar.exe qc ../../lib/libOgrePropertyStatic.a  CMakeFiles/OgreProperty.dir/src/OgreProperty.cpp.o
+C:/Users/lrt/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ranlib.exe ../../lib/libOgrePropertyStatic.a
